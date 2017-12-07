@@ -11,7 +11,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            MasterBody.Attributes.Add("style", "background-color: #8CCAEB");
         }
     }
 }
