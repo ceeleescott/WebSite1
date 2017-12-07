@@ -54,7 +54,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Bird Identifier">BirdIdentifier</a></li>
+                        <li><a runat="server" href="~/BirdIdentifier">Bird Identifier</a></li>
                         <li><a runat="server" href="~/LeagueTable">LeagueTable</a></li>
                         <li><a runat="server" href="Gallery.aspx">Gallery</a></li>
                         <li><a runat="server" href="AboutUs.aspx">About Us</a></li>
