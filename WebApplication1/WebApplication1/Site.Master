@@ -67,7 +67,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - TACL</p>
+                <p>&copy; <%: DateTime.Now.Year %> - TACL Biodiversity</p>
             </footer>
         </div>
 
