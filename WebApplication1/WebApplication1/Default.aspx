@@ -3,9 +3,11 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1>TACL Biodiversity Project</h1>
+        <p class="lead">The bird finding Biodiversity Project created for young school children to help them identify birds in the local area, and learn about the ecosystems that surround us every day.</p>
+        <p class="lead">Learn more about birds in Northern Ireland and use our web application to log what you find.</p>
+        <p class="lead">- TACL Team</p>
+        <p><a href="https://www.rspb.org.uk/about-the-rspb/at-home-and-abroad/northern-ireland/" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
     <div class="row">
