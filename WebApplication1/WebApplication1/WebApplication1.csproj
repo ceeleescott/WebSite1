@@ -143,6 +143,18 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="LeagueTable.aspx" />
+    <Content Include="Media Content\Gallery Images\Blackbird.jpg" />
+    <Content Include="Media Content\Gallery Images\Carrion Crow.jpg" />
+    <Content Include="Media Content\Gallery Images\Common Gull.jpg" />
+    <Content Include="Media Content\Gallery Images\Cuckoo.jpg" />
+    <Content Include="Media Content\Gallery Images\Jackdaw.jpg" />
+    <Content Include="Media Content\Gallery Images\Magpie.jpg" />
+    <Content Include="Media Content\Gallery Images\Pheasant.jpg" />
+    <Content Include="Media Content\Gallery Images\Pigeon.jpg" />
+    <Content Include="Media Content\Gallery Images\Raven.jpg" />
+    <Content Include="Media Content\Gallery Images\Robin.jpg" />
+    <Content Include="Media Content\Gallery Images\Rook.jpg" />
+    <Content Include="Media Content\Gallery Images\Swallow.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -236,7 +248,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Media Content\Gallery Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
