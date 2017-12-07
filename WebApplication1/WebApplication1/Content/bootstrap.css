@@ -183,6 +183,10 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
+    z-index: 1;
+    left: 177px;
+    top: 39px;
+    position: absolute;
 }
 
 button[disabled],
@@ -355,10 +359,10 @@ img {
   vertical-align: middle;
     z-index: 1;
     left: 58px;
-    top: 209px;
+    top: 194px;
     position: absolute;
-    height: 71px;
-    width: 80px;
+    height: 100px;
+    width: 119px;
 }
 
 .img-responsive {
@@ -408,6 +412,7 @@ hr {
 
 p {
   margin: 0 0 10px;
+    height: 219px;
 }
 
 .lead {

@@ -3,13 +3,9 @@
     <p>
     <br />
     <asp:Label ID="lblGallery" runat="server" style="z-index: 1; left: 375px; top: 102px; position: absolute; text-align: center" Text="Gallery" BorderStyle="None" BorderWidth="0px"></asp:Label>
+        <asp:Label ID="lblBlackBird" runat="server" style="z-index: 1; left: 194px; top: 196px; position: absolute; height: 22px" Text="Blackbird"></asp:Label>
+        <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 197px; top: 227px; position: absolute; height: 63px; width: 200px" Text="Length: 24-25 cm  (10&quot;)      Wing Span: 35-38 cm  (14-15&quot;)"></asp:Label>
 </p>
-<p>
-    &nbsp;</p>
-<p>
-    &nbsp;</p>
-<p>
-    &nbsp;</p>
 <p>
     <asp:Image ID="Image1" runat="server" ImageUrl="~/Media Content/Gallery Images/Blackbird.jpg" />
     </p>
