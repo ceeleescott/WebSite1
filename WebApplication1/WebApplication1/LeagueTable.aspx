@@ -5,8 +5,8 @@
         <asp:Label ID="Label1" runat="server" style="z-index: 1; position: absolute; top: 100px; left: 413px; width: 110px" Text="League Table"></asp:Label>
         </strong>
         <asp:Image ID="Image1" runat="server" style="z-index: 1; position: absolute; top: 216px; left: 31px; width: 126px; height: 103px" ImageUrl="~/Media Content/Gallery Images/Blackbird.jpg" />
-        <asp:Image ID="Image3" runat="server" ImageUrl="~/Media Content/Gallery Images/Rook.jpg" style="right: 7px; left: 814px; top: 216px; width: 119px" />
-        <asp:Image ID="Image4" runat="server" ImageUrl="~/Media Content/Gallery Images/Jackdaw.jpg" style="z-index: 1; position: absolute; top: 327px; left: 811px" />
+        <asp:Image ID="Image3" runat="server" ImageUrl="~/Media Content/Gallery Images/Rook.jpg" style="right: 39px; left: 812px; top: 216px; width: 121px; height: 105px;" />
+        <asp:Image ID="Image4" runat="server" ImageUrl="~/Media Content/Gallery Images/Jackdaw.jpg" style="z-index: 1; position: absolute; top: 332px; left: 810px" />
         <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 124px; left: 89px; width: 743px; height: 71px; margin-bottom: 0px;" Text="Welcome to the League Table page were you will be able to look at the results and different types of birds that may be near the provided school below"></asp:Label>
     </p>
 <asp:Panel ID="Panel1" runat="server" Height="589px">
@@ -31,5 +31,6 @@
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [SchoolName], [TotalNumberOfBirds], [DifferentTypesOfBirds] FROM [LeagueTable]"></asp:SqlDataSource>
     <asp:Image ID="Image2" runat="server" ImageUrl="~/Media Content/Gallery Images/Pheasant.jpg" style="left: 30px; top: 327px; width: 127px; height: 105px" />
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [SchoolName], [TotalNumberOfBirds], [DifferentTypesOfBirds] FROM [LeagueTable]"></asp:SqlDataSource>
+    <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 488px; left: 86px; width: 742px; margin-bottom: 0px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
 </asp:Panel>
 </asp:Content>
