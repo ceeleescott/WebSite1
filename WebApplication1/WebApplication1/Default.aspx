@@ -31,7 +31,7 @@
                 Learn about us and ask us a question using our About Us page.
             </p>
             <p>
-                <a class="btn btn-default" runat="server" href="AboutUs.aspx">About Us</>">About Us &raquo;</a>
+                <a class="btn btn-default" runat="server" href="AboutUs.aspx">About Us &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
