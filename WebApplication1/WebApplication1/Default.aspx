@@ -26,12 +26,12 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
+            <h2>Find out more</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                Learn about us and ask us a question using our About Us page.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="~/AboutUs">About Us &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
