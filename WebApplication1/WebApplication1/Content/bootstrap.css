@@ -183,10 +183,11 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
-    z-index: 1;
-    left: 177px;
-    top: 39px;
-    position: absolute;
+    z-index: 2;
+    left: 185px;
+    top: 11px;
+    position: relative;
+    height: 0px;
 }
 
 button[disabled],
@@ -358,8 +359,8 @@ a:focus {
 img {
   vertical-align: middle;
     z-index: 1;
-    left: 58px;
-    top: 194px;
+    left: 56px;
+    top: 191px;
     position: absolute;
     height: 100px;
     width: 119px;
