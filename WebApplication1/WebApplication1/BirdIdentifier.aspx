@@ -14,6 +14,7 @@
             <asp:ListItem>Green</asp:ListItem>
             <asp:ListItem>Red</asp:ListItem>
             <asp:ListItem>Blue</asp:ListItem>
+            <asp:ListItem>Multi Coloured</asp:ListItem>
 		</asp:DropDownList>
 		<asp:Label ID="lblBeak" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 538px; left: 274px" Text="Beak :"></asp:Label>
 		<asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; position: absolute; top: 542px; left: 386px; width: 226px; height: 20px">
