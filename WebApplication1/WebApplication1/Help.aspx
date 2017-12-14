@@ -8,4 +8,7 @@
 		<asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 338px; left: 343px; width: 451px" Text="Q2-How can I decide whether the bird is small, medium or large?"></asp:Label>
 		<asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 372px; left: 346px; width: 453px" Text="A2- Beside each size option, there is a range of measurements listed which match the size category. The bird size can then be searched for in the gallery to find the size, and then the bird can be classified as small, medium or large using the given values."></asp:Label>
 	</p>
-	</asp:Content>
+	<asp:Panel ID="Panel1" runat="server" style="z-index: 1; width: 798px; height: 89px; position: absolute; top: 92px; left: 16px" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px">
+		<h1 class="text-center">Help Page</h1>
+	</asp:Panel>
+</asp:Content>
