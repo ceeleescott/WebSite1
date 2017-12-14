@@ -22,13 +22,22 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Label lblGallery;
         
         /// <summary>
-        /// lblBlackBird control.
+        /// lblBlackbird control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBlackBird;
+        protected global::System.Web.UI.WebControls.Label lblBlackbird;
+        
+        /// <summary>
+        /// lblBlackbirdTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblBlackbirdTitle;
         
         /// <summary>
         /// Label1 control.
