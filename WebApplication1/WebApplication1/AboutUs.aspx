@@ -4,7 +4,7 @@
         <asp:Panel ID="Panel2" runat="server" style="z-index: 1; width: 825px; height: 89px; position: absolute; top: 102px; left: 26px" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" ForeColor="Black">
             <h1 class="text-center" style="height: 72px">About Us</h1>
         </asp:Panel>
-        <asp:Panel ID="Panel3" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" style="z-index: 1; width: 822px; height: 225px; position: absolute; top: 226px; left: 25px">
+        <asp:Panel ID="Panel3" runat="server" style="z-index: 1; width: 822px; height: 225px; position: absolute; top: 226px; left: 25px">
             <p style="height: 51px">
                 We are the TACL Biodiversity Team. Our group was formed in 2017 consisting of Andrew Adair, Callum Scott, Luke Anderson and Thomas Kerr.
             </p>
