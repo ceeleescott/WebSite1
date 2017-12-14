@@ -184,7 +184,7 @@ input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
     z-index: 2;
-    left: 160px;
+    left: 155px;
     top: 117px;
     position: relative;
     height: 0px;
@@ -359,12 +359,19 @@ a:focus {
 img {
   vertical-align: middle;
     z-index: 1;
+<<<<<<< HEAD
     left: 55px;
     top: 190px;
+=======
+    left: 45px;
+    top: 140px;
+>>>>>>> 
+5420663f8697fe5f43d497183869690ddca47a7f
     position: absolute;
-    height: 100px;
+    height: 95px;
     width: 119px;
-    bottom: 364px;
+    bottom: -235px;
+    position: absolute;
 }
 
 .img-responsive {
@@ -414,7 +421,12 @@ hr {
 
 p {
   margin: 0 0 10px;
+<<<<<<< HEAD
     height: 217px;
+=======
+    height: 417px;
+>>>>>>> 
+5420663f8697fe5f43d497183869690ddca47a7f
 }
 
 .lead {
