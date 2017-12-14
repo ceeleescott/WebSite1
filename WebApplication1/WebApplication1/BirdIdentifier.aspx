@@ -7,9 +7,9 @@
 		<asp:Label ID="lblLocation" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 319px; left: 271px" Text="Location : "></asp:Label>
 		<asp:Label ID="lblSize" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 273px; left: 261px; width: 57px" Text="Size :"></asp:Label>
 		<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 272px; left: 383px; width: 225px; height: 24px;">
-			<asp:ListItem>Small</asp:ListItem>
-		    <asp:ListItem>Medium </asp:ListItem>
-            <asp:ListItem>Large</asp:ListItem>
+			<asp:ListItem>Small(5-15cm)</asp:ListItem>
+		    <asp:ListItem>Medium(16-30cm)</asp:ListItem>
+            <asp:ListItem>Large(31-45cm)</asp:ListItem>
 		</asp:DropDownList>
 		<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 317px; left: 383px; width: 229px"></asp:TextBox>
 		<asp:Label ID="lblFeathers" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 367px; left: 271px" Text="Feathers : "></asp:Label>
