@@ -359,8 +359,8 @@ a:focus {
 img {
   vertical-align: middle;
     z-index: 1;
-    left: 50px;
-    top: 185px;
+    left: 56px;
+    top: 191px;
     position: absolute;
     height: 100px;
     width: 119px;
@@ -413,7 +413,7 @@ hr {
 
 p {
   margin: 0 0 10px;
-    height: 477px;
+    height: 219px;
 }
 
 .lead {
