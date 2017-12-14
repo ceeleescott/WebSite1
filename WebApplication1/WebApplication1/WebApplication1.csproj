@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -144,7 +145,7 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Help.aspx" />
-    <Content Include="LeagueTable.aspx" />
+    <Content Include="League Table.aspx" />
     <Content Include="Media Content\Gallery Images\Blackbird.jpg" />
     <Content Include="Media Content\Gallery Images\Carrion Crow.jpg" />
     <Content Include="Media Content\Gallery Images\Common Gull.jpg" />
@@ -233,12 +234,12 @@
     <Compile Include="Help.aspx.designer.cs">
       <DependentUpon>Help.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LeagueTable.aspx.cs">
-      <DependentUpon>LeagueTable.aspx</DependentUpon>
+    <Compile Include="League Table.aspx.cs">
+      <DependentUpon>League Table.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LeagueTable.aspx.designer.cs">
-      <DependentUpon>LeagueTable.aspx</DependentUpon>
+    <Compile Include="League Table.aspx.designer.cs">
+      <DependentUpon>League Table.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

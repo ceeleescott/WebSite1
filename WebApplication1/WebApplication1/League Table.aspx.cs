@@ -10,14 +10,9 @@ using System.Configuration;
 
 namespace WebApplication1
 {
-    public partial class LeagueTable : System.Web.UI.Page
+    public partial class League_Table : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
@@ -43,7 +38,7 @@ namespace WebApplication1
 
             //The above query should really be like this so the values are parameterised.
 
-            SqlCommand cmd = new SqlCommand("Insert into LeagueTable " + "(SchoolName, TotalNumberOfBirds, DifferentTypesOfBirds)"
+            SqlCommand cmd = new SqlCommand("Insert into LeagueTable " + "(SchoolName, TotalNumberOfBirds, DifferentTypeOfBirds)"
                 + "Values (@1, @2, @3) Select SCOPE_IDENTITY()");
 
             //int primaryKey;
@@ -69,7 +64,7 @@ namespace WebApplication1
                 conn.Close();
                 conn.Dispose();
 
-                GridView2.DataBind();
+                GridView1.DataBind();
             }
         }
     }
