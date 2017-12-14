@@ -67,15 +67,6 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Image imgCommonGull;
         
         /// <summary>
-        /// imgCuckoo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgCuckoo;
-        
-        /// <summary>
         /// imgJackdaw control.
         /// </summary>
         /// <remarks>
@@ -299,5 +290,32 @@ namespace WebApplication1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCommonGullDescript;
+        
+        /// <summary>
+        /// imgCuckoo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgCuckoo;
+        
+        /// <summary>
+        /// lblCuckooSpec control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCuckooSpec;
+        
+        /// <summary>
+        /// lblCuckooDescript control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCuckooDescript;
     }
 }
