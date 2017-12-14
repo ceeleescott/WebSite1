@@ -60,6 +60,8 @@ namespace WebApplication1
                 cmd.Parameters.AddWithValue("@4", DropDownList3.Text.ToString());
                 cmd.Parameters.AddWithValue("@5", DropDownList4.Text.ToString());
 
+                //noyhing
+
                 cmd.Connection = conn;
                 //Primary key = Convert.ToInt32(cmd.ExecuteScalar());
 
