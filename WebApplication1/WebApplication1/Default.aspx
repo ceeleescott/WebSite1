@@ -21,10 +21,10 @@
                 The Gallery allows the user&nbsp; to cycle through photos of birds that have been found by our users. Can you spot the birds others have found? Have you found any that have not yet been uploaded?</p>
             <p style="height: 46px">
                 The League Table allows you to view what other schools have managed to find. Can you find more?</p>
-            <p style="height: 140px">
+            <p style="height: 18px">
                 &nbsp;</p>
         </div>
-        <div class="col-md-4" style="left: 0px; top: 20px; height: 143px">
+        <div class="col-md-4" style="left: -5px; top: 1px; height: 143px">
             <h2 style="height: 33px">Find out more</h2>
             <p style="height: 41px">
                 Learn about us and ask us a question using our About Us page.
