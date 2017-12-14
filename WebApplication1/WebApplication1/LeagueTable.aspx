@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LeagueTable.aspx.cs" Inherits="WebApplication1.LeagueTable" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-	<p style="height: 84px; text-align: center">
+	<p style="height: 904px; text-align: center">
         <asp:Image ID="Image1" runat="server" style="z-index: 1; position: absolute; top: 288px; left: 28px; width: 126px; height: 103px" ImageUrl="~/Media Content/Gallery Images/Blackbird.jpg" />
         <asp:Image ID="Image3" runat="server" ImageUrl="~/Media Content/Gallery Images/Rook.jpg" style="right: -33px; left: 810px; top: 289px; width: 121px; height: 105px;" />
         <asp:Image ID="Image4" runat="server" ImageUrl="~/Media Content/Gallery Images/Jackdaw.jpg" style="z-index: 1; position: absolute; top: 413px; left: 810px" />
@@ -11,7 +11,7 @@
 		<h1 class="text-center" style="height: 85px">League Table</h1>
 	</asp:Panel>
 <asp:Panel ID="Panel1" runat="server" Height="589px">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 628px; height: 242px; position: absolute; top: 280px; left: 172px; bottom: 144px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 628px; height: 242px; position: absolute; top: 280px; left: 172px; bottom: 144px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:BoundField DataField="SchoolName" HeaderText="SchoolName" SortExpression="SchoolName" />

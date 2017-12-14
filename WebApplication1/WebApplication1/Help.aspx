@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Help.aspx.cs" Inherits="WebApplication1.Help" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <p style="height: 569px">
+	<p style="height: 569px">
 		<br />
 		<asp:Label ID="Label1" runat="server" style="z-index: 1; position: absolute; top: 263px; left: 27px; width: 402px; height: 24px" Text="Frequently Asked Questions and Answers;" Font-Bold="True" Font-Size="Large"></asp:Label>
 		<asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 330px; width: 488px">Q1- How do I know the type of the bird?</asp:Label>
