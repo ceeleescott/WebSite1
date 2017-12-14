@@ -184,8 +184,8 @@ input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
     z-index: 2;
-    left: 185px;
-    top: 11px;
+    left: 160px;
+    top: 117px;
     position: relative;
     height: 0px;
 }
@@ -359,11 +359,12 @@ a:focus {
 img {
   vertical-align: middle;
     z-index: 1;
-    left: 50px;
-    top: 185px;
+    left: 55px;
+    top: 190px;
     position: absolute;
     height: 100px;
     width: 119px;
+    bottom: 364px;
 }
 
 .img-responsive {
@@ -413,7 +414,7 @@ hr {
 
 p {
   margin: 0 0 10px;
-    height: 477px;
+    height: 217px;
 }
 
 .lead {
