@@ -12,5 +12,4 @@
         <h1 class="text-center">HELP<asp:Image ID="Image1" runat="server" ImageUrl="~/Media Content/Gallery Images/Help-button.png" style="z-index: 1; position: absolute; top: 4px; left: 3px; width: 137px; height: 115px" />
         </h1>
     </asp:Panel>
-    z
-</asp:Content>
+    </asp:Content>
