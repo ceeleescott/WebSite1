@@ -11,19 +11,18 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4" style="left: 0px; top: 0px; height: 300px">
+        <div class="col-md-4" style="left: 0px; top: 0px; height: 339px">
             <h2>Getting started with Biodiversity</h2>
             <p style="height: 30px">
                 There are many features to explore within the TACL Biodiversity web application.</p>
-            <p style="height: 39px">
+            <p style="height: 49px">
                 The Bird Identifier allows you to enter information about birds you find, the information will be stored so you can view it again later.</p>
             <p style="height: 72px">
                 The Gallery allows the user&nbsp; to cycle through photos of birds that have been found by our users. Can you spot the birds others have found? Have you found any that have not yet been uploaded?</p>
             <p style="height: 46px">
                 The League Table allows you to view what other schools have managed to find. Can you find more?</p>
             <p style="height: 140px">
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+                &nbsp;</p>
         </div>
         <div class="col-md-4" style="left: 0px; top: 20px; height: 143px">
             <h2 style="height: 33px">Find out more</h2>
