@@ -31,6 +31,6 @@
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [SchoolName], [TotalNumberOfBirds], [DifferentTypesOfBirds] FROM [LeagueTable]"></asp:SqlDataSource>
     <asp:Image ID="Image2" runat="server" ImageUrl="~/Media Content/Gallery Images/Pheasant.jpg" style="left: 30px; top: 327px; width: 127px; height: 105px" />
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [SchoolName], [TotalNumberOfBirds], [DifferentTypesOfBirds] FROM [LeagueTable]"></asp:SqlDataSource>
-    <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 488px; left: 86px; width: 742px; margin-bottom: 0px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
+    aye<asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 488px; left: 86px; width: 742px; margin-bottom: 0px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
 </asp:Panel>
 </asp:Content>
