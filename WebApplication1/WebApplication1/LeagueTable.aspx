@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LeagueTable.aspx.cs" Inherits="WebApplication1.LeagueTable" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <p style="height: 84px; text-align: center">
+	<p style="height: 84px; text-align: center">
         <asp:Image ID="Image1" runat="server" style="z-index: 1; position: absolute; top: 288px; left: 28px; width: 126px; height: 103px" ImageUrl="~/Media Content/Gallery Images/Blackbird.jpg" />
         <asp:Image ID="Image3" runat="server" ImageUrl="~/Media Content/Gallery Images/Rook.jpg" style="right: -33px; left: 810px; top: 289px; width: 121px; height: 105px;" />
         <asp:Image ID="Image4" runat="server" ImageUrl="~/Media Content/Gallery Images/Jackdaw.jpg" style="z-index: 1; position: absolute; top: 413px; left: 810px" />
