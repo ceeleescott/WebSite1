@@ -6,6 +6,7 @@
         <asp:Label ID="lblBlackbird" runat="server" style="z-index: 1; left: 267px; top: 188px; position: absolute; height: 99px; width: 143px" Text="Length: 24-25 cm       Wing Span: 35-38 cm   Weight: 80-125 g   Present: All Year Round"></asp:Label>
         <asp:Label ID="lblBlackbirdTitle" runat="server" style="z-index: 1; left: 191px; top: 225px; position: absolute" Text="Blackbird"></asp:Label>
         <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 444px; top: 182px; position: absolute; height: 116px; width: 325px" Text="The Blackbird sings from a perch and its song is rich, varied and flute-like, but usually finishes in a squeaky phrase. Their calls are loud and varied. The warning call is given with flicking wings and tail and sounds a little like &quot;chook&quot;, and the alarm call is a loud rattle."></asp:Label>
+        <asp:Image ID="Image2" runat="server" style="z-index: 1; position: absolute; top: 299px; left: 51px" />
 </p>
 <p>
     <asp:Image ID="Image1" runat="server" ImageUrl="~/Media Content/Gallery Images/Blackbird.jpg" />
