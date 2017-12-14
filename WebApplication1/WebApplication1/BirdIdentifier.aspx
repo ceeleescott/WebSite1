@@ -13,6 +13,7 @@
             <asp:ListItem>Purple</asp:ListItem>
             <asp:ListItem>Green</asp:ListItem>
             <asp:ListItem>Red</asp:ListItem>
+            <asp:ListItem>Blue</asp:ListItem>
 		</asp:DropDownList>
 		<asp:Label ID="lblBeak" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 538px; left: 274px" Text="Beak :"></asp:Label>
 		<asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; position: absolute; top: 542px; left: 386px; width: 226px; height: 20px">
@@ -26,17 +27,17 @@
         <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 372px; left: 263px" Text="Type Of Bird :"></asp:Label>
 		<asp:Label ID="lblSize" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 415px; left: 265px; width: 57px" Text="Size :"></asp:Label>
 		<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 409px; left: 389px; width: 225px; height: 24px;">
-			<asp:ListItem>Small(5-15cm)</asp:ListItem>
-		    <asp:ListItem>Medium(16-30cm)</asp:ListItem>
-            <asp:ListItem>Large(31-45cm)</asp:ListItem>
+			<asp:ListItem>Small(5-30cm)</asp:ListItem>
+		    <asp:ListItem>Medium(31-100cm)</asp:ListItem>
+            <asp:ListItem>Large(101+cm)</asp:ListItem>
 		</asp:DropDownList>
 		<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 456px; left: 386px; width: 229px"></asp:TextBox>
 		<asp:Label ID="lblLocation" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 457px; left: 267px" Text="Location : "></asp:Label>
 	</p>
-    <asp:Panel ID="Panel1" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" style="z-index: 1; width: 790px; height: 118px; position: absolute; top: 98px; left: 28px">
-        <h1 class="text-center">Bird Identifier</h1>
-    </asp:Panel>
-    <p>
+<asp:Panel ID="Panel1" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" style="z-index: 1; width: 790px; height: 118px; position: absolute; top: 98px; left: 28px">
+    <h1 class="text-center">Bird Identifier</h1>
+</asp:Panel>
+<p>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 549px; height: 146px; position: absolute; top: 663px; left: 206px">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
