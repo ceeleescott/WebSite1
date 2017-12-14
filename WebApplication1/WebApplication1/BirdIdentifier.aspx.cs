@@ -58,7 +58,7 @@ namespace WebApplication1
                 cmd.Parameters.AddWithValue("@2", DropDownList1.Text.ToString());
                 cmd.Parameters.AddWithValue("@3", TextBox1.Text.ToString());
                 cmd.Parameters.AddWithValue("@4", DropDownList3.Text.ToString());
-                cmd.Parameters.AddWithValue("@5", DropDownList4.ToString());
+                cmd.Parameters.AddWithValue("@5", DropDownList4.Text.ToString());
 
                 cmd.Connection = conn;
                 //Primary key = Convert.ToInt32(cmd.ExecuteScalar());

@@ -6,14 +6,14 @@
 		<asp:Label ID="Label1" runat="server" style="z-index: 1; position: absolute; top: 152px; left: 20px; height: 55px; width: 859px; margin-right: 0px" Text="On this page you will be able to enter the characteristics and details about the birds you have spotted. The system will then match all the details entered and identify the bird spotted."></asp:Label>
 		<asp:Label ID="lblLocation" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 319px; left: 271px" Text="Location : "></asp:Label>
 		<asp:Label ID="lblSize" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 273px; left: 261px; width: 57px" Text="Size :"></asp:Label>
-		<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 272px; left: 382px; width: 225px">
+		<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 272px; left: 383px; width: 225px; height: 24px;">
 			<asp:ListItem>Small</asp:ListItem>
 		    <asp:ListItem>Medium </asp:ListItem>
             <asp:ListItem>Large</asp:ListItem>
 		</asp:DropDownList>
 		<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 317px; left: 383px; width: 215px"></asp:TextBox>
 		<asp:Label ID="lblFeathers" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 367px; left: 271px" Text="Feathers : "></asp:Label>
-		<asp:DropDownList ID="DropDownList3" runat="server" style="z-index: 1; position: absolute; top: 366px; left: 381px; width: 225px; right: 334px; height: 16px">
+		<asp:DropDownList ID="DropDownList3" runat="server" style="z-index: 1; position: absolute; top: 366px; left: 382px; width: 225px; right: 350px; height: 22px">
             <asp:ListItem>Black</asp:ListItem>
             <asp:ListItem>Grey</asp:ListItem>
             <asp:ListItem>White</asp:ListItem>
@@ -25,7 +25,7 @@
             <asp:ListItem>Red</asp:ListItem>
 		</asp:DropDownList>
 		<asp:Label ID="lblBeak" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 413px; left: 271px" Text="Beak :"></asp:Label>
-		<asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; position: absolute; top: 414px; left: 383px; width: 226px; height: 14px">
+		<asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; position: absolute; top: 414px; left: 383px; width: 226px; height: 20px">
             <asp:ListItem>Long</asp:ListItem>
             <asp:ListItem>Curved</asp:ListItem>
             <asp:ListItem>Short</asp:ListItem>
@@ -55,6 +55,6 @@
         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [TypeOfBird], [Size], [Location], [Feathers], [Beak] FROM [BirdIdentifier]"></asp:SqlDataSource>
         <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; position: absolute; top: 228px; left: 384px; width: 214px"></asp:TextBox>
         <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 230px; left: 267px" Text="Type Of Bird :"></asp:Label>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 455px; left: 412px; height: 19px; width: 112px" Text="Spotted" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 455px; left: 412px; height: 29px; width: 112px" Text="Spotted" />
 	</p>
 </asp:Content>
