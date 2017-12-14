@@ -44,7 +44,7 @@ namespace WebApplication1
 
             //The above query should really be like this so the values are parameterised.
 
-            SqlCommand cmd = new SqlCommand("Insert into BirdIdentifier " + "(TypeOfBird, Size, Location, Feathers, Beak)"
+            SqlCommand cmd = new SqlCommand("Insert into BirdIdentifier2 " + "(TypeOfBird, Size, Location, Feathers, Beak)"
                 + "Values (@1, @2, @3, @4, @5) Select SCOPE_IDENTITY()");
 
             //int primaryKey;
