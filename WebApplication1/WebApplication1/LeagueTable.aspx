@@ -11,7 +11,7 @@
 		<h1 class="text-center" style="height: 85px">League Table</h1>
 	</asp:Panel>
 <asp:Panel ID="Panel1" runat="server" Height="589px">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 628px; height: 242px; position: absolute; top: 280px; left: 172px; bottom: 144px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 628px; height: 242px; position: absolute; top: 280px; left: 172px; bottom: 144px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:BoundField DataField="SchoolName" HeaderText="SchoolName" SortExpression="SchoolName" />
