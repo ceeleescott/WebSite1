@@ -30,8 +30,8 @@
             <asp:ListItem>Curved</asp:ListItem>
             <asp:ListItem>Short</asp:ListItem>
 		</asp:DropDownList>
-		<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [Size], [Location], [Feathers], [Beak] FROM [BirdIdentifier]"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+		<asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [TypeOfBird], [Size], [Location], [Feathers], [Beak] FROM [BirdIdentifier2]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" OnSelecting="SqlDataSource1_Selecting" SelectCommand="SELECT [Size], [TypeOfBird], [Location], [Feathers], [Beak] FROM [BirdIdentifier2]"></asp:SqlDataSource>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 549px; height: 146px; position: absolute; top: 503px; left: 204px">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
@@ -52,7 +52,7 @@
             <SortedDescendingCellStyle BackColor="#D4DFE1" />
             <SortedDescendingHeaderStyle BackColor="#15524A" />
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [TypeOfBird], [Size], [Location], [Feathers], [Beak] FROM [BirdIdentifier]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [TypeOfBird], [Size], [Location], [Feathers], [Beak] FROM [BirdIdentifier2]"></asp:SqlDataSource>
         <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; position: absolute; top: 228px; left: 384px; width: 214px"></asp:TextBox>
         <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 230px; left: 267px" Text="Type Of Bird :"></asp:Label>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 455px; left: 412px; height: 29px; width: 112px" Text="Spotted" />
