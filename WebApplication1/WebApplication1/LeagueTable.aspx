@@ -29,7 +29,6 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [SchoolName], [TotalNumberOfBirds], [DifferentTypesOfBirds] FROM [LeagueTable]"></asp:SqlDataSource>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 483px; left: 350px; height: 25px; width: 128px" Text="Insert" />
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 340px; left: 256px" Text="School Name : "></asp:Label>
     <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 385px; left: 256px" Text="Total Number of Birds :"></asp:Label>
