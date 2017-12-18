@@ -54,7 +54,7 @@
         <asp:Label ID="lblRookDescript" runat="server" style="z-index: 1; position: absolute; top: 2225px; left: 220px; width: 570px;" Text="The Rook is about the same size as the Carrion Crow but is more untidy in its appearance. Rooks are rarely alone and so their raucous caws can become overwhelming."></asp:Label>
         <asp:Label ID="lblSwallowSpec" runat="server" style="z-index: 1; position: absolute; top: 2355px; left: 265px; width: 350px;" Text="Length: 17-20 cm  (7-8&quot) Wing Span: 30-35 cm  (12-14&quot) Weight: 16-25 g  (½-1 oz) Present: Summer"></asp:Label>
         <asp:Label ID="lblSwallowDescript" runat="server" style="z-index: 1; position: absolute; top: 2415px; left: 35px; width: 580px;" Text="Swallows have long wings and long tail streamers and are often found circling gracefully overhead or swooping low over water and ground. Their song is a rambling warble of trills and twitters sometimes sounding almost like a sparrow."></asp:Label>
-        <asp:Label ID="Label3" runat="server" BackColor="White" style="z-index: 1; position: absolute; top: 2545px; left: 130px" Text="If you have recently spotted any of these birds why don't you submit them in the Bird Identifier!"></asp:Label>
+        <asp:Label ID="lblFooter" runat="server" BackColor="White" style="z-index: 1; position: absolute; top: 2545px; left: 130px" Text="If you have recently spotted any of these birds why don't you submit them in the Bird Identifier!"></asp:Label>
     </p>
     <asp:Panel ID="Panel1" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" style="z-index: 1; width: 760px; height: 125px; position: absolute; top: 100px; left: 25px">
         <div class="text-center">
