@@ -11,7 +11,7 @@
 
 
     <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 467px; width: 225px; margin-top: 24"></asp:TextBox>
-    <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 466px; width: 226px"></asp:TextBox>
+    <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; position: absolute; top: 335px; left: 465px; width: 226px"></asp:TextBox>
     <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; position: absolute; top: 379px; left: 467px; width: 225px"></asp:TextBox>
     <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 278px" Text="School Name"></asp:Label>
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 278px" Text="Total Number Of Birds"></asp:Label>
