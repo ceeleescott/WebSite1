@@ -58,7 +58,7 @@
     <asp:Panel ID="Panel1" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" style="z-index: 1; width: 760px; height: 125px; position: absolute; top: 100px; left: 25px">
         <div class="text-center">
             <h1>Gallery</h1>
-            <h5>Welcome to the Gallery page where you can look at all the birds you may be able to spot in your gardens and in your surrounding area.</h5>
+            <h5>Welcome to the Gallery page where you can look at some the birds you may be able to spot in your gardens and in your surrounding area.</h5>
         </div>
     </asp:Panel>
 </asp:Content>
