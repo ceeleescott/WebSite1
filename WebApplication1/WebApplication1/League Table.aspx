@@ -18,14 +18,13 @@
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 313px; left: 48px" Text="Quantity : "></asp:Label>
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 49px; height: 18px" Text="Place : "></asp:Label>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 426px; left: 460px; width: 146px; height: 33px; " Text="Insert" />
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:BoundField DataField="BirdName" HeaderText="BirdName" SortExpression="BirdName" />
             <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
-            <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" />
             <asp:BoundField DataField="Place" HeaderText="Place" SortExpression="Place" />
-            <asp:BoundField DataField="Username" HeaderText="Username" SortExpression="Username" />
+            <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" />
             <asp:BoundField DataField="Size" HeaderText="Size" SortExpression="Size" />
             <asp:BoundField DataField="Feathers" HeaderText="Feathers" SortExpression="Feathers" />
             <asp:BoundField DataField="Beak" HeaderText="Beak" SortExpression="Beak" />
@@ -41,7 +40,7 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Date], [Place], [Username], [Size], [Feathers], [Beak] FROM [LeagueTable2cs]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Date], [Size], [Feathers], [Beak] FROM [LeagueTable3cs]"></asp:SqlDataSource>
     <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 142px; width: 216px"></asp:TextBox>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
