@@ -1,19 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="WebApplication1.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Panel ID="Panel1" runat="server" style="z-index: 1; width: 794px; height: 20px; position: absolute; top: 105px; left: 15px">
+    <asp:Panel ID="Panel1" runat="server" style="z-index: 1; width: 794px; height: 115px; position: absolute; top: 105px; left: 15px" BackColor="White">
         <div class="text-center">
-            Sign-Up<br /> Use this page to sign-up for the full benefit of the Biodiversity application. Sign-up now and gain access to the leage table to see all the birds spotted by different schools and record birds seen using the Bird Identifier.</div>
+            <h1>Sign-Up<br /> </h1>
+            <h5>Use this page to sign-up for the full benefit of the Biodiversity application. Sign-up now and gain access to the leage table to see all the birds spotted by different schools and record birds seen using the Bird Identifier.</h5>
+        </div>
     </asp:Panel>
-    <div id="Section">
-        <table border="0" cellpadding="0" cellspacing="0" style="height: 297px">
+    <div id="Section" style="height: 452px">
+        <table border="0" cellpadding="0" cellspacing="0" style="height: 302px; z-index: 1; width: 395px; position: absolute; top: 220px; left: 230px;">
     <tr>
         <th colspan="3">
-            <br />
-            <br />
-            <br />
-            <br />
-            Registration
-        </th>
+            &nbsp;</th>
     </tr>
     <tr>
         <td>
@@ -67,14 +64,15 @@
     </tr>
     <tr>
         <td>
-        </td>
+            &nbsp;</td>
         <td>
-            <asp:Button Text="Submit" runat="server" OnClick="RegisterUser" />
+            <asp:Button Text="Submit" runat="server" OnClick="RegisterUser" style="left: 91px; top: 0px; height: 45px" />
         </td>
         <td style="width: 573px">
-        </td>
+            &nbsp;</td>
     </tr>
 </table>
+         <br />
          </div>
 </asp:Content>
 
