@@ -25,9 +25,11 @@
             <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
             <asp:BoundField DataField="Place" HeaderText="Place" SortExpression="Place" />
             <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" />
+            <asp:BoundField DataField="Username" HeaderText="Username" SortExpression="Username" />
             <asp:BoundField DataField="Size" HeaderText="Size" SortExpression="Size" />
             <asp:BoundField DataField="Feathers" HeaderText="Feathers" SortExpression="Feathers" />
             <asp:BoundField DataField="Beak" HeaderText="Beak" SortExpression="Beak" />
+            <asp:BoundField DataField="SchoolName" HeaderText="SchoolName" SortExpression="SchoolName" />
         </Columns>
         <EditRowStyle BackColor="#7C6F57" />
         <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
@@ -40,7 +42,8 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Date], [Size], [Feathers], [Beak] FROM [LeagueTable3cs]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Date], [Username], [Size], [Feathers], [Beak], [SchoolName] FROM [LeagueTable3cs]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
     <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 139px; width: 227px"></asp:TextBox>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>

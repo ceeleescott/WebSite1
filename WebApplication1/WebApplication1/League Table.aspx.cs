@@ -38,8 +38,8 @@ namespace WebApplication1
 
             //The above query should really be like this so the values are parameterised.
 
-            SqlCommand cmd = new SqlCommand("Insert into LeagueTable3cs " + "(BirdName, Quantity, Place, Date, Image, MediaClip, Username, Size, Feathers, Beak)"
-                + "Values (@1, @2, @3, @4, @5, @6, @7, @8, @9, @10) Select SCOPE_IDENTITY()");
+            SqlCommand cmd = new SqlCommand("Insert into LeagueTable3cs " + "(BirdName, Quantity, Place, Date, Image, MediaClip, Username, Size, Feathers, Beak, SchoolName)"
+                + "Values (@1, @2, @3, @4, @5, @6, @7, @8, @9, @10, @11) Select SCOPE_IDENTITY()");
 
             //int primaryKey;
             using (SqlDataAdapter sda = new SqlDataAdapter())
@@ -53,10 +53,11 @@ namespace WebApplication1
                 cmd.Parameters.AddWithValue("@4", TextBox10.Text.ToString());
                 cmd.Parameters.AddWithValue("@5", FileUpload1.ToString());
                 cmd.Parameters.AddWithValue("@6", FileUpload2.ToString());
-                cmd.Parameters.AddWithValue("@7", TextBox6.Text.ToString());
-                cmd.Parameters.AddWithValue("@8", DropDownList1.Text.ToString());
-                cmd.Parameters.AddWithValue("@9", DropDownList2.Text.ToString());
-                cmd.Parameters.AddWithValue("@10", DropDownList5.Text.ToString());
+                cmd.Parameters.AddWithValue("@7", TextBox11.Text.ToString());
+                cmd.Parameters.AddWithValue("@8", TextBox6.Text.ToString());
+                cmd.Parameters.AddWithValue("@9", DropDownList1.Text.ToString());
+                cmd.Parameters.AddWithValue("@10", DropDownList2.Text.ToString());
+                cmd.Parameters.AddWithValue("@11", DropDownList5.Text.ToString());
 
 
                
