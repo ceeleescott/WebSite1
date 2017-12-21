@@ -123,9 +123,6 @@ namespace WebApplication1
             TextBox3.Text = "";
             TextBox11.Text = "";
 
-            DropDownList1.Text = "Please choose an option";
-            DropDownList2.Text = "Please choose an option";
-            DropDownList5.Text = "Please choose an option";
 
            
         }
