@@ -9,7 +9,7 @@
 		<asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 497px; left: 313px; width: 453px" Text="A2- Beside each size option, there is a range of measurements listed which match the size category. The bird size can then be searched for in the gallery to find the size, and then the bird can be classified as small, medium or large using the given values."></asp:Label>
 		<asp:Label ID="Label6" runat="server" style="z-index: 1; position: absolute; top: 618px; left: 309px; height: 18px; width: 409px" Text="Q3- Where can I find additional information about TACL?"></asp:Label>
 		<asp:Label ID="Label7" runat="server" Font-Bold="True" style="position: absolute; z-index: 1; top: 729px; left: 315px; width: 386px" Text="Please insert any other queries you may have below;"></asp:Label>
-		<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 764px; left: 348px; width: 623px; height: 179px"></asp:TextBox>
+		<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 764px; left: 348px; width: 623px; height: 179px" BorderStyle="None" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
 		<asp:Button ID="Button1" runat="server" style="left: 197px; top: 903px; width: 156px; height: 48px;" Text="Submit Query" OnClick="Button1_Click" />
 	</p>
 	<asp:Panel ID="Panel2" runat="server" style="z-index: 1; width: 342px; height: 20px; position: absolute; top: 649px; left: 312px">
