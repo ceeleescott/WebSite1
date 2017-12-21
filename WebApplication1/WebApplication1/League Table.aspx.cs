@@ -104,6 +104,8 @@ namespace WebApplication1
                 cmd.ExecuteNonQuery();
                 conn.Close();
 
+                GridView1.DataBind();
+
             }
         }
 
