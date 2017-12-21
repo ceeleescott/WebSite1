@@ -115,5 +115,10 @@ namespace WebApplication1
 		{
 
 		}
-	}
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

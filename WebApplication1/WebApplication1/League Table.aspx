@@ -108,7 +108,7 @@
 
 
 
-	<asp:Button ID="btnReset" runat="server" style="z-index: 1; position: absolute; top: 427px; left: 116px; width: 185px; height: 32px" Text="Reset" />
+	<asp:Button ID="btnReset" runat="server" style="z-index: 1; position: absolute; top: 427px; left: 116px; width: 185px; height: 32px" Text="Reset" OnClick="btnReset_Click" />
 
 
 
