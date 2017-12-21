@@ -16,7 +16,7 @@
     <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 278px" Text="School Name"></asp:Label>
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 278px" Text="Total Number Of Birds"></asp:Label>
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 380px; left: 280px; height: 18px" Text="Different Number of Birds"></asp:Label>
-    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 421px; left: 401px; width: 146px; height: 33px; right: 467px;" Text="Insert" />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 421px; left: 401px; width: 122px" Text="Insert" />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 547px; height: 205px; position: absolute; top: 468px; left: 188px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
@@ -37,6 +37,39 @@
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [SchoolName], [TotalNumberOfBirds], [DifferentTypesOfBirds] FROM [LeagueTable]"></asp:SqlDataSource>
     <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 755px; left: 103px; width: 718px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
+
+
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
 
 
