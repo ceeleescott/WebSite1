@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="WebApplication1.Gallery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <p style="height: 2462px" class="text-left">
+    <p style="height: 2547px" class="text-left">
         <strong>
         <asp:Label ID="lblCCrow" runat="server" style="z-index: 1; position: absolute; top: 440px; left: 505px; text-decoration: underline;" Text="Carrion Crow"></asp:Label>
         </strong>
@@ -41,7 +41,7 @@
         <asp:Label ID="lblCuckooDescript" runat="server" style="z-index: 1; position: absolute; top: 910px; left: 70px; width: 535px;" Text="The female has a rich bubbling chuckle, but the male's call is the very familiar cuckoo. Generally, if you hear a Cuckoo singing you will probably not see it until it stops singing, which is when it flies away from its song post."></asp:Label>
         <asp:Label ID="lblJackdawSpec" runat="server" style="z-index: 1; position: absolute; top: 1035px; left: 230px; width: 325px;" Text="Length: 33 cm  (13&quot) Wing Span: 67-74 cm  (27-30&quot) Weight: 220-270 g  (8-9 oz) Present: All Year"></asp:Label>
         <asp:Label ID="lblDescript" runat="server" style="z-index: 1; position: absolute; top: 1085px; left: 215px; width: 570px;" Text="Juvenile birds have a less prominent grey nape, etc. Their eyes are a pale blue in the first year, turning to brown in the spring of their second year and eventually to light grey. Their call is a high-pitched metallic sounding kyow or tchack, after which it is named."></asp:Label>
-        <asp:Label ID="lblMagpieDescript" runat="server" style="z-index: 1; position: absolute; top: 1270px; left: 50px; width: 595px;" Text="From a distance the Magpie is a black and white crow with a long tail. The tail accounts for over half the total length of the bird and is an indication of the bird's status in its society. Magpies are very vocal birds, but the harsh repeated chattering chacker chacker call of the Magpie is unmistakable."></asp:Label>
+        <asp:Label ID="lblMagpieDescript" runat="server" style="z-index: 1; position: absolute; top: 1265px; left: 35px; width: 595px;" Text="From a distance the Magpie is a black and white crow with a long tail. The tail accounts for over half the total length of the bird and is an indication of the bird's status in its society. Magpies are very vocal birds, but the harsh repeated chattering chacker chacker call of the Magpie is unmistakable."></asp:Label>
         <asp:Label ID="lblPheasantSpec" runat="server" style="z-index: 1; position: absolute; top: 1405px; left: 205px; width: 370px;" Text="Length: 75-90 cm  (30-36&quot) Wing Span: 80-90 cm  (32-36&quot) Weight: 900-1500 g  (2-3½lb) Present: All Year"></asp:Label>
         <asp:Label ID="lblPheasantDescript" runat="server" style="z-index: 1; position: absolute; top: 1460px; left: 205px; width: 580px;" Text="The Pheasant is a non-native bird that was first introduced by the Normans in the 11th century as a game bird. The song of the male is a far-carrying, harsh korr kok."></asp:Label>
         <asp:Label ID="lblPigeonSpec" runat="server" style="z-index: 1; position: absolute; top: 1585px; left: 255px; width: 365px; height: 20px" Text="Length: 31-34 cm  (12-13&quot) Wing Span: 63-70 cm  (25-28&quot) Weight: 230-370 g  (8-13 oz) Present: All Year"></asp:Label>
@@ -54,6 +54,7 @@
         <asp:Label ID="lblRookDescript" runat="server" style="z-index: 1; position: absolute; top: 2225px; left: 220px; width: 570px;" Text="The Rook is about the same size as the Carrion Crow but is more untidy in its appearance. Rooks are rarely alone and so their raucous caws can become overwhelming."></asp:Label>
         <asp:Label ID="lblSwallowSpec" runat="server" style="z-index: 1; position: absolute; top: 2355px; left: 265px; width: 350px;" Text="Length: 17-20 cm  (7-8&quot) Wing Span: 30-35 cm  (12-14&quot) Weight: 16-25 g  (½-1 oz) Present: Summer"></asp:Label>
         <asp:Label ID="lblSwallowDescript" runat="server" style="z-index: 1; position: absolute; top: 2415px; left: 35px; width: 580px;" Text="Swallows have long wings and long tail streamers and are often found circling gracefully overhead or swooping low over water and ground. Their song is a rambling warble of trills and twitters sometimes sounding almost like a sparrow."></asp:Label>
+        <asp:Label ID="lblFooter" runat="server" BackColor="White" style="z-index: 1; position: absolute; top: 2545px; left: 130px" Text="If you have recently spotted any of these birds why don't you submit them in the Bird Identifier!"></asp:Label>
     </p>
     <asp:Panel ID="Panel1" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" BorderWidth="10px" style="z-index: 1; width: 760px; height: 125px; position: absolute; top: 100px; left: 25px">
         <div class="text-center">
