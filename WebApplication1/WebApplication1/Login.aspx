@@ -1,11 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication1.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <p style="height: 387px">
+    <p style="height: 542px">
         <br />
-        <asp:Label ID="lblRUsername" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 238px; width: 70px; height: 20px" Text="Username:"></asp:Label>
-        <asp:Label ID="lblRPassword" runat="server" style="z-index: 1; position: absolute; top: 397px; left: 239px" Text="Password:"></asp:Label>
-        <asp:TextBox ID="txtRUsername" runat="server" style="z-index: 1; position: absolute; top: 338px; left: 371px; width: 190px;"></asp:TextBox>
-        <asp:TextBox ID="txtRPassword" runat="server" style="z-index: 1; position: absolute; top: 396px; left: 371px; width: 190px;"></asp:TextBox>
+        <asp:Login ID="Login1" runat="server" style="z-index: 1; width: 399px; height: 147px; position: absolute; top: 308px; left: 236px">
+        </asp:Login>
     </p>
     <asp:Panel ID="Panel2" runat="server" style="z-index: 1; width: 655px; height: 68px; position: absolute; top: 232px; left: 111px">
         <div class="text-center">
