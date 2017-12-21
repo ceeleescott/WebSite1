@@ -3,7 +3,7 @@
     <h1 style="height: 38px" class="text-center">
         <br />
         League Table</h1>
-<asp:Panel ID="Panel1" runat="server" Height="660px" Width="1111px">
+<asp:Panel ID="Panel1" runat="server" Height="769px" Width="1111px">
     <asp:Label ID="Label9" runat="server" style="z-index: 1; position: absolute; top: 384px; left: 393px" Text="Datetime :"></asp:Label>
     <asp:Label ID="Label10" runat="server" style="z-index: 1; position: absolute; top: 423px; left: 388px" Text="Active Status : "></asp:Label>
     <asp:Label ID="Label1" runat="server" Text="Welcome to the League Table page were you will be able to look at the results and different types of birds that may be near the provided school below" style="z-index: 1; position: absolute; top: 198px; left: 163px; width: 653px;"></asp:Label>
@@ -19,15 +19,13 @@
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 313px; left: 48px" Text="Quantity : "></asp:Label>
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 49px; height: 18px" Text="Place : "></asp:Label>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 474px; left: 477px; width: 146px; height: 33px; right: 467px;" Text="Insert" />
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 254px; position: absolute; top: 558px; left: 27px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:BoundField DataField="BirdName" HeaderText="BirdName" SortExpression="BirdName" />
             <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
             <asp:BoundField DataField="Place" HeaderText="Place" SortExpression="Place" />
             <asp:BoundField DataField="Location" HeaderText="Location" SortExpression="Location" />
-            <asp:BoundField DataField="Image" HeaderText="Image" SortExpression="Image" />
-            <asp:BoundField DataField="MediaClip" HeaderText="MediaClip" SortExpression="MediaClip" />
             <asp:BoundField DataField="Username" HeaderText="Username" SortExpression="Username" />
             <asp:BoundField DataField="Datetime" HeaderText="Datetime" SortExpression="Datetime" />
             <asp:BoundField DataField="ActiveStatus" HeaderText="ActiveStatus" SortExpression="ActiveStatus" />
@@ -58,11 +56,11 @@
 	<asp:Label ID="lblType" runat="server" style="z-index: 1; position: absolute; top: 266px; left: 767px" Text="Type Of Bird :"></asp:Label>
 	<asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; position: absolute; top: 339px; left: 858px; width: 225px; height: 14px">
 	</asp:DropDownList>
-	<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 303px; left: 859px; width: 225px; height: 14px">
+	<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 303px; left: 859px; width: 225px; height: 11px">
 	</asp:DropDownList>
 	<asp:TextBox ID="TextBox9" runat="server" style="z-index: 1; position: absolute; top: 268px; left: 861px; width: 214px"></asp:TextBox>
     <asp:Label ID="Label7" runat="server" style="z-index: 1; position: absolute; top: 276px; left: 393px" Text="Image : "></asp:Label>
-    <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 756px; left: 96px; width: 903px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
+    <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 820px; left: 168px; width: 903px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
 
 
 
