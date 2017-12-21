@@ -17,7 +17,7 @@
     <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 281px; left: 48px" Text="Bird Name :"></asp:Label>
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 313px; left: 48px" Text="Quantity : "></asp:Label>
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 49px; height: 18px" Text="Place : "></asp:Label>
-    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 426px; left: 460px; width: 146px; height: 33px; " Text="Insert" />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 350px; left: 421px; width: 321px; height: 33px; " Text="Insert" />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
@@ -41,17 +41,17 @@
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Date], [Size], [Feathers], [Beak] FROM [LeagueTable3cs]"></asp:SqlDataSource>
-    <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 142px; width: 216px"></asp:TextBox>
+    <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 139px; width: 227px"></asp:TextBox>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
-	<asp:DropDownList ID="DropDownList5" runat="server" style="z-index: 1; position: absolute; top: 371px; left: 861px; width: 226px; height: 15px">
+	<asp:DropDownList ID="DropDownList5" runat="server" style="z-index: 1; position: absolute; top: 370px; left: 862px; width: 226px; height: 27px">
 		<asp:ListItem>Long</asp:ListItem>
 		<asp:ListItem>Curved</asp:ListItem>
 		<asp:ListItem>Short</asp:ListItem>
 	</asp:DropDownList>
 	<asp:Label ID="lblBeak" runat="server" style="z-index: 1; position: absolute; top: 369px; left: 776px; height: 18px" Text="Beak :"></asp:Label>
 	<asp:Label ID="lblSize" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 774px" Text="Size :"></asp:Label>
-	<asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 863px; width: 225px; height: 14px">
+	<asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; position: absolute; top: 334px; left: 863px; width: 225px; height: 27px">
 		<asp:ListItem>Black</asp:ListItem>
 		<asp:ListItem>Grey</asp:ListItem>
 		<asp:ListItem>White</asp:ListItem>
@@ -63,7 +63,7 @@
 		<asp:ListItem>Red</asp:ListItem>
 		<asp:ListItem>Blue</asp:ListItem>
 	</asp:DropDownList>
-	<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 299px; left: 864px; width: 225px; height: 11px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+	<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 299px; left: 864px; width: 225px; height: 27px; bottom: 334px;" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
 		<asp:ListItem>Small(5-30cm)</asp:ListItem>
 		<asp:ListItem>Medium(31-100cm)</asp:ListItem>
 		<asp:ListItem>Large(101 + cm)</asp:ListItem>
@@ -76,7 +76,7 @@
 
 
     <asp:Label ID="Label8" runat="server" style="z-index: 1; position: absolute; top: 267px; left: 773px; right: 234px; height: 22px;" Text="Username :"></asp:Label>
-    <asp:TextBox ID="TextBox6" runat="server" style="z-index: 1; position: absolute; top: 267px; left: 866px; width: 218px"></asp:TextBox>
+    <asp:TextBox ID="TextBox6" runat="server" style="z-index: 1; position: absolute; top: 267px; left: 866px; width: 224px"></asp:TextBox>
 
 
 
