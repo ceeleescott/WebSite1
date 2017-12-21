@@ -17,7 +17,7 @@
     <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 281px; left: 48px" Text="Bird Name :"></asp:Label>
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 313px; left: 48px" Text="Quantity : "></asp:Label>
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 49px; height: 18px" Text="Place : "></asp:Label>
-    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 350px; left: 421px; width: 321px; height: 33px; " Text="Insert" />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 423px; left: 449px; width: 182px; height: 33px; " Text="Insert" />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
@@ -84,6 +84,13 @@
 
 	<asp:Label ID="lblFeathers" runat="server" style="z-index: 1; position: absolute; top: 336px; left: 774px; height: 17px" Text="Feathers :"></asp:Label>
 	<asp:FileUpload ID="FileUpload1" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 271px; left: 499px" />
+
+
+
+
+
+	<asp:TextBox ID="TextBox11" runat="server" style="z-index: 1; position: absolute; top: 348px; left: 499px; width: 214px"></asp:TextBox>
+	<asp:Label ID="lblSchoolName" runat="server" style="width: 115px; height: 22px; z-index: 1; position: absolute; top: 348px; left: 394px" Text="School Name :"></asp:Label>
 
 
 
