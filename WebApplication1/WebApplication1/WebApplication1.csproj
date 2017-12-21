@@ -146,6 +146,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Help.aspx" />
     <Content Include="League Table.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Media Content\Gallery Images\Blackbird.jpg" />
     <Content Include="Media Content\Gallery Images\Carrion Crow.jpg" />
     <Content Include="Media Content\Gallery Images\Common Gull.jpg" />
@@ -159,6 +160,7 @@
     <Content Include="Media Content\Gallery Images\Robin.jpg" />
     <Content Include="Media Content\Gallery Images\Rook.jpg" />
     <Content Include="Media Content\Gallery Images\Swallow.jpg" />
+    <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -241,7 +243,21 @@
     <Compile Include="League Table.aspx.designer.cs">
       <DependentUpon>League Table.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
