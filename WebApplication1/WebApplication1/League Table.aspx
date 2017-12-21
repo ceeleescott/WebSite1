@@ -4,7 +4,6 @@
         <br />
         League Table</h1>
 <asp:Panel ID="Panel1" runat="server" Height="769px" Width="1111px">
-    <asp:Label ID="Label9" runat="server" style="z-index: 1; position: absolute; top: 385px; left: 50px; height: 18px;" Text="Date :"></asp:Label>
     <asp:Label ID="Label1" runat="server" Text="Welcome to the League Table page were you will be able to look at the results and different types of birds that may be near the provided school below" style="z-index: 1; position: absolute; top: 198px; left: 163px; width: 653px;"></asp:Label>
 
 
@@ -21,6 +20,7 @@
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
+            <asp:CommandField ShowSelectButton="True" />
             <asp:BoundField DataField="BirdName" HeaderText="BirdName" SortExpression="BirdName" />
             <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
             <asp:BoundField DataField="Place" HeaderText="Place" SortExpression="Place" />
@@ -46,7 +46,6 @@
             <asp:ControlParameter ControlID="lblUsername" Name="Username" PropertyName="Text" Type="String" />
         </SelectParameters>
     </asp:SqlDataSource>
-    <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 139px; width: 227px"></asp:TextBox>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
 	<asp:DropDownList ID="DropDownList5" runat="server" style="z-index: 1; position: absolute; top: 370px; left: 862px; width: 226px; height: 27px">
@@ -74,13 +73,6 @@
 		<asp:ListItem>Large(101 + cm)</asp:ListItem>
 	</asp:DropDownList>
     <asp:Label ID="Label7" runat="server" style="z-index: 1; position: absolute; top: 276px; left: 393px" Text="Image : "></asp:Label>
-
-
-
-
-
-    <asp:Label ID="Label8" runat="server" style="z-index: 1; position: absolute; top: 267px; left: 773px; right: 234px; height: 22px;" Text="Username :"></asp:Label>
-    <asp:TextBox ID="TextBox6" runat="server" style="z-index: 1; position: absolute; top: 267px; left: 866px; width: 224px"></asp:TextBox>
 
 
 
