@@ -21,7 +21,7 @@ namespace WebApplication1
         {
             int userId = 0;
             //string connectionString = null;
-            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Data Source=BR-B26-SQL2\\I10;Initial Catalog=TACL;Integrated Security=True"].ConnectionString);
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["TACLConnectionString"].ConnectionString);
             // conn.Open();
             using (SqlCommand cmd = new SqlCommand("Insert_User"))
             {
