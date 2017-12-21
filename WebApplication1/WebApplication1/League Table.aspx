@@ -70,7 +70,6 @@
 		<asp:ListItem>Large(101 + cm)</asp:ListItem>
 	</asp:DropDownList>
     <asp:Label ID="Label7" runat="server" style="z-index: 1; position: absolute; top: 276px; left: 393px" Text="Image : "></asp:Label>
-    <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 820px; left: 168px; width: 903px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
 
 
 
@@ -92,6 +91,15 @@
 
 	<asp:TextBox ID="TextBox11" runat="server" style="z-index: 1; position: absolute; top: 348px; left: 499px; width: 214px"></asp:TextBox>
 	<asp:Label ID="lblSchoolName" runat="server" style="width: 115px; height: 22px; z-index: 1; position: absolute; top: 348px; left: 394px" Text="School Name :"></asp:Label>
+
+
+
+
+
+	<asp:Panel ID="Panel2" runat="server" style="z-index: 1; width: 1111px; height: 20px; position: absolute; top: 849px; left: 57px">
+		For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed
+		<a href="http://localhost:58514/Gallery">Gallery </a>
+	</asp:Panel>
 
 
 
