@@ -76,5 +76,10 @@ namespace WebApplication1
                 GridView1.DataBind();
             }
         }
-    }
+
+		protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
