@@ -48,14 +48,14 @@
     </asp:SqlDataSource>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
-	<asp:DropDownList ID="DropDownList5" runat="server" style="z-index: 1; position: absolute; top: 370px; left: 862px; width: 226px; height: 27px">
+	<asp:DropDownList ID="DropDownList5" runat="server" style="z-index: 1; position: absolute; top: 344px; left: 863px; width: 226px; height: 27px">
 		<asp:ListItem>Long</asp:ListItem>
 		<asp:ListItem>Curved</asp:ListItem>
 		<asp:ListItem>Short</asp:ListItem>
 	</asp:DropDownList>
-	<asp:Label ID="lblBeak" runat="server" style="z-index: 1; position: absolute; top: 369px; left: 776px; height: 18px" Text="Beak :"></asp:Label>
-	<asp:Label ID="lblSize" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 774px" Text="Size :"></asp:Label>
-	<asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; position: absolute; top: 334px; left: 863px; width: 225px; height: 27px">
+	<asp:Label ID="lblBeak" runat="server" style="z-index: 1; position: absolute; top: 346px; left: 775px; height: 18px" Text="Beak :"></asp:Label>
+	<asp:Label ID="lblSize" runat="server" style="z-index: 1; position: absolute; top: 269px; left: 775px" Text="Size :"></asp:Label>
+	<asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; position: absolute; top: 310px; left: 863px; width: 225px; height: 27px">
 		<asp:ListItem>Black</asp:ListItem>
 		<asp:ListItem>Grey</asp:ListItem>
 		<asp:ListItem>White</asp:ListItem>
@@ -67,7 +67,7 @@
 		<asp:ListItem>Red</asp:ListItem>
 		<asp:ListItem>Blue</asp:ListItem>
 	</asp:DropDownList>
-	<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 299px; left: 864px; width: 225px; height: 27px; bottom: 334px;" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+	<asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; position: absolute; top: 271px; left: 864px; width: 225px; height: 27px; bottom: 373px;" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
 		<asp:ListItem>Small(5-30cm)</asp:ListItem>
 		<asp:ListItem>Medium(31-100cm)</asp:ListItem>
 		<asp:ListItem>Large(101 + cm)</asp:ListItem>
@@ -78,7 +78,7 @@
 
 
 
-	<asp:Label ID="lblFeathers" runat="server" style="z-index: 1; position: absolute; top: 336px; left: 774px; height: 17px" Text="Feathers :"></asp:Label>
+	<asp:Label ID="lblFeathers" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 773px; height: 17px" Text="Feathers :"></asp:Label>
 	<asp:FileUpload ID="FileUpload1" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 271px; left: 499px" />
 
 
