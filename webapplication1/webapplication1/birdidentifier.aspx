@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BirdIdentifier.aspx.cs" Inherits="WebApplication1.BirdIdentifier" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <p style="height: 638px" class="text-center">
+    <p style="height: 855px" class="text-center">
 		&nbsp;<br />
 		<asp:Label ID="lblFeathers" runat="server" Font-Bold="True" Font-Size="Medium" style="z-index: 1; position: absolute; top: 496px; left: 270px" Text="Feathers : "></asp:Label>
 		<asp:DropDownList ID="DropDownList3" runat="server" style="z-index: 1; position: absolute; top: 493px; left: 385px; width: 225px; right: 272px; height: 22px">
