@@ -8,7 +8,7 @@
             Please enter your unique Username and Password to access all our features for the TACL Bird Finder Web Application.
             <asp:Login ID="Login1" runat="server" BackColor="LightCyan" BorderColor="#000099" BorderPadding-="4" BorderStyle="Solid" BorderWidth="1px" DestinationPageUrl="~/League Table.aspx" Font-Names="Tahoma" Font-Size="0.8em" ForeColor="Black" Height="325px" OnAuthenticate="Login1_Authenticate" Width="500px">
                 <InstructionTextStyle Font-Italic="true" ForeColor="Black" />
-                <LoginButtonStyle BackColor="LightGray" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" Font-Names="Tahoma" Font-Size="0.8em" ForeColor="Black" Height="20px" Width="40px"/>
+                <LoginButtonStyle BackColor="LightGray" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" Font-Names="Tahoma" Font-Size="0.8em" ForeColor="Black" Height="20px" Width="40px" />
                 <TitleTextStyle BackColor="SteelBlue" Font-Bold="true" Font-Size="0.9em" ForeColor="White" />
             </asp:Login>
         </div>
