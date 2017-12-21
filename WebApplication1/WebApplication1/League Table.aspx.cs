@@ -53,14 +53,13 @@ namespace WebApplication1
                 cmd.Parameters.AddWithValue("@4", TextBox10.Text.ToString());
                 cmd.Parameters.AddWithValue("@5", FileUpload1.ToString());
                 cmd.Parameters.AddWithValue("@6", FileUpload2.ToString());
-                cmd.Parameters.AddWithValue("@7", TextBox11.Text.ToString());
-                cmd.Parameters.AddWithValue("@8", TextBox6.Text.ToString());
-                cmd.Parameters.AddWithValue("@9", DropDownList1.Text.ToString());
-                cmd.Parameters.AddWithValue("@10", DropDownList2.Text.ToString());
-                cmd.Parameters.AddWithValue("@11", DropDownList5.Text.ToString());
+                cmd.Parameters.AddWithValue("@7", TextBox6.Text.ToString());
+                cmd.Parameters.AddWithValue("@8", DropDownList1.Text.ToString());
+                cmd.Parameters.AddWithValue("@9", DropDownList2.Text.ToString());
+                cmd.Parameters.AddWithValue("@10", DropDownList5.Text.ToString());
+                cmd.Parameters.AddWithValue("@11", TextBox11.Text.ToString());
 
 
-               
 
                 cmd.Connection = conn;
                 //Primary key = Convert.ToInt32(cmd.ExecuteScalar());
