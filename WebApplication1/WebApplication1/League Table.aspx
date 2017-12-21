@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="League Table.aspx.cs" Inherits="WebApplication1.League_Table" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h1 style="height: 38px" class="text-center">
+	<h1 style="height: 38px" class="text-center">
         <br />
         League Table</h1>
 <asp:Panel ID="Panel1" runat="server" Height="660px">
