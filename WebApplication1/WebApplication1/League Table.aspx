@@ -16,7 +16,7 @@
     <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 281px; left: 48px" Text="Bird Name :"></asp:Label>
     <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 313px; left: 48px" Text="Quantity : "></asp:Label>
     <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 49px; height: 18px" Text="Place : "></asp:Label>
-    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 423px; left: 449px; width: 182px; height: 33px; " Text="Insert" />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 426px; left: 443px; width: 190px; height: 33px; " Text="Insert" />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 244px; position: absolute; top: 558px; left: 27px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
@@ -46,6 +46,7 @@
             <asp:ControlParameter ControlID="lblUsername" Name="Username" PropertyName="Text" Type="String" />
         </SelectParameters>
     </asp:SqlDataSource>
+	<asp:Button ID="btnUpdate" runat="server" style="z-index: 1; position: absolute; top: 425px; left: 784px; width: 204px; height: 34px" Text="Update" />
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
 	<asp:DropDownList ID="DropDownList5" runat="server" style="z-index: 1; position: absolute; top: 344px; left: 863px; width: 226px; height: 27px">
@@ -102,6 +103,12 @@
 
 
     <asp:Label ID="lblUsername" runat="server" style="z-index: 1; position: absolute; top: 196px; left: 15px"></asp:Label>
+
+
+
+
+
+	<asp:Button ID="btnReset" runat="server" style="z-index: 1; position: absolute; top: 427px; left: 116px; width: 185px; height: 32px" Text="Reset" />
 
 
 
