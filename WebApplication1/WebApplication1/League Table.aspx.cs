@@ -118,7 +118,16 @@ namespace WebApplication1
 
         protected void btnReset_Click(object sender, EventArgs e)
         {
+            TextBox1.Text = "";
+            TextBox2.Text = "";
+            TextBox3.Text = "";
+            TextBox11.Text = "";
 
+            DropDownList1.Text = "Please choose an option";
+            DropDownList2.Text = "Please choose an option";
+            DropDownList5.Text = "Please choose an option";
+
+           
         }
     }
 }
