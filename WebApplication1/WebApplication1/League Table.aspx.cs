@@ -38,7 +38,7 @@ namespace WebApplication1
 
             //The above query should really be like this so the values are parameterised.
 
-            SqlCommand cmd = new SqlCommand("Insert into LeagueTable2cs " + "(BirdName, Quantity, Place, Date, Image, MediaClip, Username, Size, Feathers, Beak)"
+            SqlCommand cmd = new SqlCommand("Insert into LeagueTable3cs " + "(BirdName, Quantity, Place, Date, Image, MediaClip, Username, Size, Feathers, Beak)"
                 + "Values (@1, @2, @3, @4, @5, @6, @7, @8, @9, @10) Select SCOPE_IDENTITY()");
 
             //int primaryKey;
