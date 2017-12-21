@@ -23,12 +23,9 @@
         <Columns>
             <asp:BoundField DataField="BirdName" HeaderText="BirdName" SortExpression="BirdName" />
             <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
+            <asp:BoundField DataField="Date" HeaderText="Date" SortExpression="Date" />
             <asp:BoundField DataField="Place" HeaderText="Place" SortExpression="Place" />
-            <asp:BoundField DataField="Location" HeaderText="Location" SortExpression="Location" />
             <asp:BoundField DataField="Username" HeaderText="Username" SortExpression="Username" />
-            <asp:BoundField DataField="Datetime" HeaderText="Datetime" SortExpression="Datetime" />
-            <asp:BoundField DataField="ActiveStatus" HeaderText="ActiveStatus" SortExpression="ActiveStatus" />
-            <asp:BoundField DataField="TypeOfBird" HeaderText="TypeOfBird" SortExpression="TypeOfBird" />
             <asp:BoundField DataField="Size" HeaderText="Size" SortExpression="Size" />
             <asp:BoundField DataField="Feathers" HeaderText="Feathers" SortExpression="Feathers" />
             <asp:BoundField DataField="Beak" HeaderText="Beak" SortExpression="Beak" />
@@ -44,7 +41,7 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Location], [Image], [MediaClip], [Username], [Datetime], [ActiveStatus], [TypeOfBird], [Size], [Feathers], [Beak] FROM [LeagueTabelcs]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Date], [Place], [Username], [Size], [Feathers], [Beak] FROM [LeagueTable2cs]"></asp:SqlDataSource>
     <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 142px; width: 216px"></asp:TextBox>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
