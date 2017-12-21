@@ -13,11 +13,11 @@
     <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 467px; width: 225px; margin-top: 24"></asp:TextBox>
     <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 466px; width: 226px"></asp:TextBox>
     <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; position: absolute; top: 379px; left: 467px; width: 225px"></asp:TextBox>
-    <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 298px; left: 278px" Text="School Name"></asp:Label>
-    <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 337px; left: 278px" Text="Total Number Of Birds"></asp:Label>
-    <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 380px; left: 280px; height: 18px" Text="Different Number of Birds"></asp:Label>
+    <asp:Label ID="Label2" runat="server" style="z-index: 1; position: absolute; top: 281px; left: 48px" Text="School Name"></asp:Label>
+    <asp:Label ID="Label3" runat="server" style="z-index: 1; position: absolute; top: 313px; left: 48px" Text="Total Number Of Birds"></asp:Label>
+    <asp:Label ID="Label4" runat="server" style="z-index: 1; position: absolute; top: 347px; left: 49px; height: 18px" Text="Different Number of Birds"></asp:Label>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; position: absolute; top: 421px; left: 401px; width: 146px; height: 33px; right: 467px;" Text="Insert" />
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 547px; height: 205px; position: absolute; top: 468px; left: 188px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" style="z-index: 1; width: 1086px; height: 254px; position: absolute; top: 482px; left: 35px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:BoundField DataField="SchoolName" HeaderText="SchoolName" SortExpression="SchoolName" />
