@@ -45,7 +45,7 @@
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Location], [Image], [Username], [Datetime], [ActiveStatus] FROM [leagueTable2]"></asp:SqlDataSource>
     <asp:TextBox ID="TextBox5" runat="server" style="z-index: 1; position: absolute; top: 274px; left: 497px; width: 219px"></asp:TextBox>
     <asp:Label ID="Label7" runat="server" style="z-index: 1; position: absolute; top: 277px; left: 405px" Text="Image : "></asp:Label>
-    <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 755px; left: 103px; width: 718px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
+    <asp:Label ID="Label5" runat="server" style="z-index: 1; position: absolute; top: 756px; left: 96px; width: 903px" Text="For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed "></asp:Label>
 
 
 
