@@ -14,7 +14,8 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblUsername.Text = User.Identity.Name;
+            GridView1.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)

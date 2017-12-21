@@ -41,7 +41,11 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Date], [Image], [MediaClip], [Username], [SchoolName] FROM [LeagueTable3cs]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TACLConnectionString %>" SelectCommand="SELECT [BirdName], [Quantity], [Place], [Date], [Image], [MediaClip], [Username], [SchoolName] FROM [LeagueTable3cs] WHERE ([Username] = @Username)">
+        <SelectParameters>
+            <asp:ControlParameter ControlID="lblUsername" Name="Username" PropertyName="Text" Type="String" />
+        </SelectParameters>
+    </asp:SqlDataSource>
     <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; position: absolute; top: 382px; left: 139px; width: 227px"></asp:TextBox>
 	<asp:FileUpload ID="FileUpload2" runat="server" style="z-index: 1; width: 222px; height: 22px; position: absolute; top: 308px; left: 498px" />
 	<asp:Label ID="lblMediaClip" runat="server" style="z-index: 1; position: absolute; top: 311px; left: 394px" Text="Media Clip :"></asp:Label>
@@ -100,6 +104,12 @@
 		For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed
 		<a href="http://localhost:58514/Gallery">Gallery </a>
 	</asp:Panel>
+
+
+
+
+
+    <asp:Label ID="lblUsername" runat="server" style="z-index: 1; position: absolute; top: 196px; left: 15px"></asp:Label>
 
 
 
