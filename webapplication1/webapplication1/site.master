@@ -56,6 +56,8 @@
                         <li><a runat="server" href="Gallery.aspx">Gallery</a></li>
                         <li><a runat="server" href="AboutUs.aspx">About Us</a></li>
 						<li><a runat="server" href="Help.aspx">Help</a></li>
+                        <li><a runat="server" href="Login.aspx" style="text-align:right">Login</a></li>
+						<li><a runat="server" href="Register.aspx" style="text-align:right">Register</a></li>
                     </ul>
                 </div>
             </div>
