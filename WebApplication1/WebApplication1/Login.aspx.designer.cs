@@ -31,15 +31,6 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Label lblRPassword;
         
         /// <summary>
-        /// lblREmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblREmail;
-        
-        /// <summary>
         /// txtRUsername control.
         /// </summary>
         /// <remarks>
@@ -56,15 +47,6 @@ namespace WebApplication1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtRPassword;
-        
-        /// <summary>
-        /// txtREmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtREmail;
         
         /// <summary>
         /// Panel1 control.
