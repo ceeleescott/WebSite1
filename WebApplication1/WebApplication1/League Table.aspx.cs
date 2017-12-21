@@ -38,8 +38,8 @@ namespace WebApplication1
 
             //The above query should really be like this so the values are parameterised.
 
-            SqlCommand cmd = new SqlCommand("Insert into LeagueTable " + "(SchoolName, TotalNumberOfBirds, DifferentTypesOfBirds)"
-                + "Values (@1, @2, @3) Select SCOPE_IDENTITY()");
+            SqlCommand cmd = new SqlCommand("Insert into LeagueTable2 " + "(BirdName, Quantity, Place, Location, Image, Username, Datetime, ActiveStatus)"
+                + "Values (@1, @2, @3, @4, @5, @6, @7, @8) Select SCOPE_IDENTITY()");
 
             //int primaryKey;
             using (SqlDataAdapter sda = new SqlDataAdapter())
@@ -50,6 +50,11 @@ namespace WebApplication1
                 cmd.Parameters.AddWithValue("@1", TextBox1.Text.ToString());
                 cmd.Parameters.AddWithValue("@2", TextBox2.Text.ToString());
                 cmd.Parameters.AddWithValue("@3", TextBox3.Text.ToString());
+                cmd.Parameters.AddWithValue("@4", TextBox4.Text.ToString());
+                cmd.Parameters.AddWithValue("@5", TextBox5.Text.ToString());
+                cmd.Parameters.AddWithValue("@6", TextBox6.Text.ToString());
+                cmd.Parameters.AddWithValue("@7", TextBox7.Text.ToString());
+                cmd.Parameters.AddWithValue("@8", TextBox8.Text.ToString());
 
 
                 //noyhing
