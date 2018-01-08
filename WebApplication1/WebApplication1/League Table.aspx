@@ -93,9 +93,8 @@
 
 
 
-	<asp:Panel ID="Panel2" runat="server" style="z-index: 1; width: 1111px; height: 20px; position: absolute; top: 849px; left: 57px">
-		For more information on the different types of birds with a breif definition of each please visit the Gallery page where all the different types of birds will be listed
-		<a href="http://localhost:58514/Gallery">Gallery </a>
+	<asp:Panel ID="Panel2" runat="server" style="z-index: 1; width: 1111px; height: 20px; position: absolute; top: 850px; left: 26px">
+		For more information on the different types of birds with a brief description of each please visit the <a href="http://localhost:58514/Gallery">Gallery</a> page where all the different types of birds will be listed.
 	</asp:Panel>
 
 
